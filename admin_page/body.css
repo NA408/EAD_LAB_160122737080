@@ -1,0 +1,30 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background: url('https://img.freepik.com/free-photo/colorful-abstract-nebula-space-background_53876-111355.jpg?t=st=1724243021~exp=1724246621~hmac=0f3843b28d70aec7a41447f34b562bc654d1fc45435be2f7cd8c392fef9cc5b8&w=996') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    border: 1px solid #0f0f0f;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 100px;
+    background-color: rgba(247, 247, 247, 0.973);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(243, 242, 242, 0.973);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
