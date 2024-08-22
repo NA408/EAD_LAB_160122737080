@@ -1,0 +1,71 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background: url('https://img.freepik.com/free-photo/abstract-uv-ultraviolet-light-composition_23-2149243976.jpg?t=st=1723111002~exp=1723114602~hmac=e0a62cd228e28a01a69fc9beba6e1e1b38b85e6487de3a5b11529b87b3f9298d&w=900') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: rgb(247, 242, 242);
+    color: rgb(14, 13, 13);
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    background-color: #fcf8f8;
+    color: rgb(3, 3, 3);
+    width: auto;
+    padding: 10px 18px;
+    margin: 10px 5px;
+    display: inline-block;
+}
+form {
+    border: 3px solid #f1f1f1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type=text], input[type=password] {
+    width: calc(100% - 24px);
+    margin: 8px 0;
+    padding: 12px 20px;
+    border: 2px solid rgb(246, 248, 246);
+    box-sizing: border-box;
+    display: block;
+}
+.container {
+    padding: 100px;
+    background-color: rgba(247, 247, 247, 0.973);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(243, 242, 242, 0.973);
+    margin: 0 auto;
+    max-width: 600px;
+}
+@media screen and (max-width: 600px) {
+    button {
+        width: 100%;
+    }
+
+    input[type=text], input[type=password] {
+        width: 100%;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
