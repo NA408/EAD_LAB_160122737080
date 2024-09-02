@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nadia Anjum</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nadia Anjum</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="C:\Users\shaik\OneDrive\Pictures\Screenshots\Screenshot 2024-09-03 014147.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nadia Anjum</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://acrobat.adobe.com/id/urn:aaid:sc:AP:f9acc91d-11e6-46aa-b025-1c6264087d54')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="C:\Users\shaik\Downloads\linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://github.com/NA408'"
+          />
+          <img
+            src="C:\Users\shaik\Downloads\github (1).png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/NA408'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="C:\Users\shaik\OneDrive\Pictures\Screenshots\Screenshot 2024-09-03 020316.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="C:\Users\shaik\Downloads\experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p>Java<br />Python<br>Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="C:\Users\shaik\Downloads\education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Pursuing B.E<br />In Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I’m Nadia Anjum, and I’m currently pursuing a BTech in Information Technology. 
+              I’m deeply passionate about technology and am dedicated to excelling in the IT field.
+              When I’m not immersed in my studies, you’ll often find me with a novel in hand—reading is one of my favorite hobbies. 
+              It’s a wonderful way for me to unwind and find inspiration.<br>I am particularly interested in areas like software development and cybersecurity, where I believe I can make a significant impact. I’m constantly seeking new challenges and opportunities to grow, and I am excited about the potential to drive technological advancements and create solutions that improve lives.
+
+I am enthusiastic about the future and am committed to continuous learning and professional development.<br> As I progress through my studies and gain more experience, I look forward to collaborating with like-minded professionals and contributing to groundbreaking projects in the IT field.
+
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:\Users\shaik\Downloads\arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React.js</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Proficiencies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OOPs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Analysis and Visualization </h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\shaik\Downloads\checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                
+                <div>
+                  <h3>DSA</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:\Users\shaik\Downloads\arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\shaik\OneDrive\Pictures\Screenshots\Screenshot 2024-09-03 011645.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project I</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/shaikarshiya-itcbit/MIniProject-1-web-development-'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\shaik\OneDrive\Pictures\Screenshots\Screenshot 2024-09-03 010349.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project II</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/NA408/EAD_LAB_160122737080/tree/main/1_080%5Clogin_form'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\shaik\OneDrive\Pictures\Screenshots\Screenshot 2024-09-03 011304.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project III</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/NA408/CodeAlpha_Hangman_game'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="C:\Users\shaik\Downloads\arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\shaik\Downloads\email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">nadia.anjum123@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\shaik\Downloads\linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\shaik\OneDrive\Pictures\Screenshots\Screenshot 2024-09-03 013009.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">Phone no. +91900000009</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Nadia Anjum. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
